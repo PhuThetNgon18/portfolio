@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	position: fixed; /* htate sone mr freeze chin yin thone */
+	top: 0;
+	left: 0;
+	z-index: 10;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	/*background-color: bisque;*/
+}
+
+.logo img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.menu{
+	width: 600px;
+	height: 100%;
+	/*background-color: burlywood;*/
+}
+
+.menu ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #959c96;
+	font-size: 0.8rem;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu ul li a{
+    color: #959c96;
+    text-decoration: none;
+    padding: 10px 20px;
+
+    transition: all 0.2s;
+}
+
+.menu ul li a:hover{
+	color: #fff;
+    background-color: #059696;
+    
+}
+
+.chat{
+    width: 100px;
+    height: 100%;
+    /*background-color: aquamarine;*/
+}
+
+.chat p{
+	width: 45px;
+	height: 20px;
+	/*background-color: red;*/
+    border-bottom: 2px solid #20a142;
+    cursor: pointer;
+
+	font-size: 0.8rem;
+	color: #20a142;
+	text-align: center;
+	/*line-height: 80px;*/
+
+	margin-top: 20px;
+}
+
+#home{
+	width: 100%;
+	height: 600px;
+	/*background-color: aliceblue;*/
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#home .photo{
+	width: 500px;
+	height: 500px;
+	/*background-color: blueviolet;*/
+}
+
+#home .photo img{
+	width: 100%;
+	height: 100%;
+}
+
+#home .text{
+	width: 500px;
+	height: 250px;
+	/*background-color: lightpink;*/
+}
+
+#home .text h1{
+	font-size: 3.5rem;
+	letter-spacing: 1px;
+}
+
+#home .text p{
+	color: #959c96;
+
+	margin: 10px 0 25px 0;
+}
+
+#home .text a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #059696;
+	border-radius: 30px;
+
+	transition: all 0.2s;
+}
+
+#home .text a:hover{
+	background-color: #57d965;
+}
+
+#skills{
+	width: 100%;
+	height: 500px;
+	/*background-color: blue;*/
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#skills .contant{
+	width: 400px;
+	height: 450px;
+	/*background-color: bisque;*/
+}
+
+#skills .contant span{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #04c998;
+}
+
+#skills .contant h1{
+	font-size: 3rem;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+#skills .contant .skillcontainer{
+	width: 100%;
+	height: 100px;
+	/*background-color: darkred;*/
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#skills .contant .skillcontainer .icons{
+	width: 50px;
+	height: 50px;
+	background-color: #ebf5ee;
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+}
+
+#skills .contant .skillcontainer i{
+	margin: 0 30px;
+}
+
+.fa-html5{
+	color: red;
+	font-size: 1.2rem;
+}
+
+.fa-css3-alt{
+	color: blue;
+	font-size: 1.2rem;
+}
+
+.fa-js{
+	color: orangered;
+	font-size: 1.2rem;
+}
+
+.contant .skillcontainer .skilltext h3{
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+}
+
+.contant .skillcontainer .skilltext p{
+	font-size: 0.9rem;
+}
+
+#skills .image{
+	width: 550px;
+	height: 400px;
+	/*background-color: cyan;*/
+}
+
+#skills .image img{
+	width: 100%;
+	height: 100%;
+}
+
+#recent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#recent .recenthead h3{
+	color: #04c998;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#recent .recenthead h1{
+	font-size: 3rem;
+	letter-spacing: 2px;
+}
+
+#recent a{
+	text-decoration: none;
+	background-color: #059696;
+	color: #fff;
+	border-radius: 20px;
+
+	padding: 7px 40px;
+	transition: all 0.2s;
+}
+
+#recent a:hover{
+	background-color: #57d965;
+}
+
+#client{
+	width: 100%;
+	height: 600px;
+	/*background-color: lightpink;*/
+
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+#client h3{
+	font-size: 0.8rem;
+	color: #059696;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#client h1{
+	font-size: 3rem;
+	letter-spacing: 2px;
+}
+
+#client .clientcontainer{
+	width: 80%;
+	height: 400px;
+	/*background-color: bisque;*/
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#client .clientcontainer .clientbox{
+	width: 300px;
+	height: 350px;
+	/*background-color: lightblue;*/
+	box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+
+	transition: all 0.2s;
+}
+
+#client .clientcontainer .clientbox:hover{
+	background-color:#05969656;
+	transform: translateY(-10px);
+}
+
+.clientcontainer .clientbox img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.clientcontainer .clientbox div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-star{
+	color: goldenrod;
+}
+
+.clientcontainer .clientbox p{
+	font-size: 0.9rem;
+	text-align: center;
+
+	width: 235px;
+	height: 85px;
+	/*background-color: palegreen;*/
+    overflow: hidden;
+}
+
+.clientcontainer .clientbox a{
+	color: #fff;
+	background-color: #059696;
+	padding: 8px 15px;
+	text-decoration: none;
+}
+
+#contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	/* margin-top: -100px; */
+}
+
+#contact img{
+	width: 400px;
+	height: 500px;
+	/* background-color: gold; */
+}
+
+#contact h1{
+font-size: 3rem;
+text-transform: capitalize;
+margin: 30px 0;
+}
+
+#contact .inputbox{
+	width: 350px;
+	height: 50px;
+	/* background-color: darkgray; */
+	border-radius: 30px;
+	box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#contact .inputbox .input{
+    text-align: center;
+	border: none;
+	outline: none;
+}
+
+#contact .inputbox a{
+	padding: 5px 20px;
+	background-color: #059696;
+	border-radius: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 30px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	margin-top: 30px;
+}
+
+
+
+/*font pyg chin yin google font ko thwr ek htae win pe tok font shar win pe yin light pyit" ta char he pyit" kyite tr nate pe yin import yu pe css htate mr htae pe yin ko htae chin tk ny yr mr css rule nr ka hr copy lote p htae yin ya p*/
+/*line height ko thone p a lae cha lae ya*/
+
+/*sr ko pyat cha chin tl so yin see more htae chin tl so yin width height ko pyat chin tk ny yr a hti bl htar p overflow hidden htae lo ya*/
+/*color code mr a nout ka 2 lone htae lo ya exp;#235694 do yin 23569458 lo hae lo ya 58 ka color yae opicity 1-99 ya 58 so yin nae thwr*/
